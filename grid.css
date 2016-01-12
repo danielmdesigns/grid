@@ -6,7 +6,11 @@
   padding: 15px 0px 15px 0px;
 }
 
-/* DO NOT EDIT - grid styles */
+/*
+-------------------------
+DO NOT EDIT - grid styles
+-------------------------
+*/
 *,
 *:after,
 *:before {
@@ -28,10 +32,18 @@
   float: right;
 }
 
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.container-full{
+	width: 100%;
+	margin: 0 auto;
+}
+
 .row {
-  width: 95%;
-  max-width: 1200px;
-  margin: 0px auto;
+  width: 100%;
 }
 
 .row:after {
@@ -88,7 +100,6 @@
   width: 8.33%;
 }
 
-/* DO NOT EDIT - responsive grid */
 @media (max-width: 480px) {
   .col-1 {
     width: 100%;
