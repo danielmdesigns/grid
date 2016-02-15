@@ -1,5 +1,5 @@
 /* custom css */
-.box {
+.fill {
   text-align: center;
   background: #AFAFAF;
   color: #FFF;
@@ -192,38 +192,37 @@ DO NOT EDIT - grid styles
 DO NOT EDIT - gallery styles
 -------------------------
 */
-/*.grid-gallery {
-  float: left;
-  padding: 0;
-}*/
 
 .grid-gallery {
+  padding: 0;
+  /*padding: 10px !important;*/
   list-style: none;
   overflow: hidden;
   max-width: 76em;
   margin: 0 auto;
   float: left;
-  padding: 0;
 }
 
 .grid-gallery:last-of-type {
   padding-right: 0;
+  /*padding-right: 10px;*/
   float: right;
 }
 
-.grid-gallery .img-gallery {
+.grid-gallery .img-fluid {
   padding: 10px;
+  /*padding: 0;*/
   max-width: 100%;
 }
 
-.grid-gallery .img-gallery > img {
+.grid-gallery .img-fluid > img {
   display: block;
   max-width: 100%;
 }
 
 /* small */
 @media all and (min-width: 27em) {
-  .grid-gallery .img-gallery {
+  .grid-gallery .img-fluid {
     width: 50%;
     float: left;
   }
@@ -231,14 +230,14 @@ DO NOT EDIT - gallery styles
 
 /* medium */
 @media all and (min-width: 40em) {
-  .grid-gallery .img-gallery {
+  .grid-gallery .img-fluid {
     width: 33.3333333%;
   }
 }
 
 /* large */
 @media all and (min-width: 60em) {
-  .grid-gallery .img-gallery {
+  .grid-gallery .img-fluid {
     width: 25%;
   }
 }
