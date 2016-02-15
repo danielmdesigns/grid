@@ -1,5 +1,5 @@
 /* custom css */
-.box {
+.fill {
   text-align: center;
   background: #AFAFAF;
   color: #FFF;
@@ -100,6 +100,7 @@ DO NOT EDIT - grid styles
   width: 8.33%;
 }
 
+/*small*/
 @media (max-width: 480px) {
   .col-1 {
     width: 100%;
@@ -149,6 +150,7 @@ DO NOT EDIT - grid styles
   }
 }
 
+/*medium*/
 @media (min-width: 481px) and (max-width: 800px) {
   .col-3 {
     width: 33.33%;
@@ -182,6 +184,61 @@ DO NOT EDIT - grid styles
   }
   .col-12 {
     width: 50%;
+  }
+}
+
+/*
+-------------------------
+DO NOT EDIT - gallery styles
+-------------------------
+*/
+
+.grid-gallery {
+  padding: 0;
+  /*padding: 10px !important;*/
+  list-style: none;
+  overflow: hidden;
+  max-width: 76em;
+  margin: 0 auto;
+  float: left;
+}
+
+.grid-gallery:last-of-type {
+  padding-right: 0;
+  /*padding-right: 10px;*/
+  float: right;
+}
+
+.grid-gallery .img-fluid {
+  padding: 10px;
+  /*padding: 0;*/
+  max-width: 100%;
+}
+
+.grid-gallery .img-fluid > img {
+  display: block;
+  max-width: 100%;
+}
+
+/* small */
+@media all and (min-width: 27em) {
+  .grid-gallery .img-fluid {
+    width: 50%;
+    float: left;
+  }
+}
+
+/* medium */
+@media all and (min-width: 40em) {
+  .grid-gallery .img-fluid {
+    width: 33.3333333%;
+  }
+}
+
+/* large */
+@media all and (min-width: 60em) {
+  .grid-gallery .img-fluid {
+    width: 25%;
   }
 }
 
