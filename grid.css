@@ -221,7 +221,7 @@ DO NOT EDIT - gallery styles
 }
 
 /* small */
-@media all and (min-width: 27em) {
+@media all and (min-width: 480px) {
   .grid-gallery .img-gallery {
     width: 50%;
     float: left;
