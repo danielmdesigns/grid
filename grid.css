@@ -192,7 +192,16 @@ DO NOT EDIT - grid styles
 DO NOT EDIT - gallery styles
 -------------------------
 */
+/*.grid-gallery {
+  float: left;
+  padding: 0;
+}*/
+
 .grid-gallery {
+  list-style: none;
+  overflow: hidden;
+  max-width: 76em;
+  margin: 0 auto;
   float: left;
   padding: 0;
 }
@@ -200,14 +209,6 @@ DO NOT EDIT - gallery styles
 .grid-gallery:last-of-type {
   padding-right: 0;
   float: right;
-}
-
-.grid-gallery {
-  list-style: none;
-  overflow: hidden;
-  /*padding: 0.5em;*/
-  max-width: 76em;
-  margin: 0 auto;
 }
 
 .grid-gallery .img-gallery {
@@ -221,7 +222,7 @@ DO NOT EDIT - gallery styles
 }
 
 /* small */
-@media all and (min-width: 480px) {
+@media all and (min-width: 27em) {
   .grid-gallery .img-gallery {
     width: 50%;
     float: left;
