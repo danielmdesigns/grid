@@ -19,6 +19,7 @@ Simple set up! Just include the stylesheet in the head of your document as shown
 1. Begin by choosing a proper grid container. ```.container``` _(fixed width)_ has a maximum width of 1024px or ```.container-full``` _(fluid width)_.
 2. Add an element with a class of ```.row``` to create a horizontal column group nested inside the container class.
 3. Then add elements with a ```.col-$``` class within that ```.row```. Substitute ```$``` for the total number of columns you want for that ```.row```.
+4. Grid also includes a custom reset for browser consistency.
 
 ### Basic Usage
 ```
