@@ -297,7 +297,9 @@ Simple set up! Just include the stylesheet in the head of your document as shown
 
 ### Media Queries
 **Small:** Any screen size
+
 **Medium:** 40em/800px or wider
+
 **Large:** 60em/480px or wider
 
 ### Helpers
