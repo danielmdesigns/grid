@@ -1,9 +1,9 @@
 # Griddd
 
-A light weight, simple, and fully nestable 12 column grid for responsive web pages.
+A light weight, mobile first, simple and fully nestable 12 column grid for responsive web pages.
 
 ### Getting Started
-Simple set up! Just include the stylesheet in the head of your document as shown below. Minified and/or production CSS included.
+Fast set up! Download Griddd and simply include the stylesheet into the head of your document file, like shown below. Minified and/or production CSS included.
 
 #####Production
 ```
